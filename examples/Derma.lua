@@ -42,6 +42,10 @@ Derma.SetDSS( [[
 	SetPos: 50, 120;
 }
 
+TextNigga{
+	DoClick: =function() end; /* Better not do that, unless u using global vars inside */
+}
+
 ]] ) -- Thoose are all available syntax features yet.
 
 
